@@ -15,6 +15,10 @@ body{
     justify-content: space-between;
 }
 
+.jc-sa{
+    justify-content: space-around;
+}
+
 .jc-c{
     justify-content: center;
 }
@@ -28,27 +32,40 @@ body{
     padding-right: 20%;
 }
 
+.bg-c{
+    background-color: #fafafa;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
 header{
-    height: 100px;
+    height: 70px;
 }
 
 h2{
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 600;
     color: #8ab5ca;
 }
 
 .info{
     width: 300px;
     color: #a5a4a4;
-}
-
-main{
-    margin-top: -20px;
+    font-weight: 600;
 }
 
 .fon{
-    height: 500px;
+    height: 410px;
     background-image: url(../img/1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -56,8 +73,8 @@ main{
 }
 
 h1{
-    margin-top: -10px;
-    margin-bottom: 100px;
+    margin-top: -40px;
+    margin-bottom: 65px;
     color: white;
 }
 
@@ -72,10 +89,56 @@ button{
 }
 
 .padding{
-    padding: 3% 50%;
+    padding: 3% 47%;
 }
 
 .second-text{
     font-size: 24px;
     font-weight: 700;
+}
+
+.block-icon{
+    width: 815px;
+    height: 115px;
+    text-align: center;
+}
+
+.block{
+    width: 250px;
+}
+
+.img-icon{
+    width: 40px;
+    height: 40px;
+    margin-left: 105px;
+}
+
+.text{
+    font-size: 15px;
+    font-weight: 400;
+    color: #868686;
+}
+
+
+.block-commit{
+    width: 500px;
+    height: 200px;
+}
+
+.footer{
+    background-color: #44454d;
+    height: 250px;
+}
+
+.h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #c4c4c4;
+    height: 20px;
+}
+
+.end-text{
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
 }
